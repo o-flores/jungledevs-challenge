@@ -1,0 +1,29 @@
+.hero-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  border: 1px solid rgba(223, 223, 223, 1);
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 65px;
+}
+
+.hero-footer img {
+  margin-right: 32px;
+}
+
+.hero-footer a {
+  color: var(--purple-text-color);
+  font-weight: var(--medium-text);
+  margin-right: 2px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-footer p {
+  font-family: Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
