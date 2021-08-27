@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayButton from '../../images/PlayButton.png';
 import heroImage from '../../images/heroImage.png';
-import './style.css'
+import './style.css';
 
 function HeroDescription() {
   return (
@@ -14,7 +14,7 @@ function HeroDescription() {
         <a href="/">
           <img
             id="play-btn"
-            src={ PlayButton }
+            src={PlayButton}
             alt="play button"
           />
         </a>
@@ -23,10 +23,10 @@ function HeroDescription() {
         </a>
       </div>
       <div className="hero-image">
-        <img src={ heroImage } alt="" />
+        <img src={heroImage} alt="sdfdsf" />
       </div>
     </section>
   );
-};
+}
 
 export default HeroDescription;
