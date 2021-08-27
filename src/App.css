@@ -2,6 +2,7 @@
 
 :root {
   --white-text-color: rgba(255, 255, 255, 1);
+  --purple-text-color: rgba(94, 32, 164, 1);
   --medium-text: 500;
   --light-text: 400;
 }
