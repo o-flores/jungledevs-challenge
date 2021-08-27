@@ -49,12 +49,11 @@ header .right-container {
 .sign-btn {
   background: none;
   border: none;
-
 }
 
 .hero-text {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: var(--medium-text);
   color: var(--white-text-color);
   line-height: 20px;
 }
