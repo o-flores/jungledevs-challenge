@@ -7,28 +7,28 @@ function Hero() {
     <section className="hero">
       <header>
         <nav className="left-container">
-          <a href="/">
+          <a href="/" id="badger">
             <img src={ Badge } alt="Hapu's badge" />
           </a>
-          <a href="/">
+          <a href="/" className="header-links header-text">
             Create Your Nanny Share
           </a>
-          <a href="/">
-          Browse Shares
+          <a href="/" className="header-links header-text">
+            Browse Shares
           </a> 
-          <a href="/">
-          Our Story
+          <a href="/" className="header-links header-text">
+            Our Story
           </a>
         </nav>
         <div className="right-container">
           <button
             type='button'
-            className="action-btn">
+            className="action-btn btn header-text">
             Become a Nanny Share Host
           </button>
           <button
             type='button'
-            className="sign-btn">
+            className="sign-btn btn header-text">
             Sign In
           </button>
         </div>
