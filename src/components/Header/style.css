@@ -1,0 +1,60 @@
+.hero {
+  width: 100vw;
+  height: 616px;
+  background: url('../../images/hero-image.png'), linear-gradient(#640772 0, #7E49C3 46.77%, #5912AC 100%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .left-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 17px;
+}
+
+header .left-container #badger {
+  margin-right: 40px;
+}
+
+.header-links {
+  margin-right: 32px;
+  text-decoration: none;
+}
+
+header .right-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.action-btn {
+  width: 234px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: rgba(0, 168, 112, 1);
+  border: none;
+  margin-right: 23px;
+}
+
+.sign-btn {
+  background: none;
+  border: none;
+
+}
+
+.hero-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  line-height: 20px;
+}
