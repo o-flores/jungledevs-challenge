@@ -55,6 +55,6 @@ header .right-container {
 .hero-text {
   font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 1);
+  color: var(--white-text-color);
   line-height: 20px;
 }
