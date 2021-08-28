@@ -2,11 +2,11 @@ main {
   background: rgb(250, 249, 247);
 }
 
-.main-section div {
+.section div {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 120px 56px 0 228px;
+  margin: 120px 56px 120px 228px;
   width: 444px;
 }
 

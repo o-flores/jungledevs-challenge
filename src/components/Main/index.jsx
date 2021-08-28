@@ -5,7 +5,7 @@ import ImageSection1 from '../../images/ImageSection1.png';
 function Main() {
   return (
     <main>
-      <section className="main-section">
+      <section className="section">
         <div>
           <h2
             className="section-title"
@@ -28,7 +28,6 @@ function Main() {
           </a>
         </div>
         <img src={ImageSection1} alt="Example of a Nanny Share profile" />
-
       </section>
     </main>
   );
