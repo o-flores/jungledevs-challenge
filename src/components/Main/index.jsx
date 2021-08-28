@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import ImageSection1 from '../../images/ImageSection1.png';
+import ImageSection3 from '../../images/ImageSection3.png';
 
 function Main() {
   function handleSubmit(e) {
@@ -56,6 +57,23 @@ function Main() {
         </form>
       </section>
       <hr className="section-line" />
+      <section id="section-three" className="section">
+        <div>
+          <img src={ImageSection3} alt="Hapu payment system layout" />
+          <div>
+            <h2 className="section-title">
+              Shared payments made simple
+            </h2>
+            <p className="section-paragraph justify">
+              Sometimes it’s hard enough just sharing a restaurant bill.
+              Try sharing that bill week in, week out and you might encounter more than a few
+              snares. But not with Hapu. Simply set your rates and our automated payment
+              system takes care of the rest. You need never talk money or who owes what.
+            </p>
+            <a href="/" className="link-medium">Read how Bridget’s share (without Hapu) ended over $15</a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
