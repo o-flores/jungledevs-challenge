@@ -23,3 +23,9 @@
   line-height: 24px;
   text-decoration: underline;
 }
+
+.action-btn {
+  border-radius: 4px;
+  background-color: rgba(0, 168, 112, 1);
+  border: none;
+}
