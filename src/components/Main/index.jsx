@@ -3,6 +3,7 @@ import './style.css';
 import ImageSection1 from '../../images/ImageSection1.png';
 import ImageSection3 from '../../images/ImageSection3.png';
 import ImageSection4 from '../../images/ImageSection4.png';
+import ImageSection5 from '../../images/ImageSection5.png';
 
 function Main() {
   function handleSubmit(e) {
@@ -86,6 +87,17 @@ function Main() {
         </p>
         <a href="/" className="link-medium">Read how Hapu’s tribal background defines our app </a>
         <img src={ImageSection4} alt="Hapu's billing history layout" />
+      </section>
+      <hr className="section-line" />
+      <section id="section-five" className="section">
+        <img src={ImageSection5} alt="Shows a notepad, a tablet and a frame" />
+        <h2 className="section-title">Coming soon: Nanny Share Daily Diary!</h2>
+        <p className="section-paragraph">
+          With the Hapu daily diary your nanny will be able to update you and your sharers
+          with photos and commentary of the day. You and sharers will receive
+          notifications and you’ll be able to login to view the daily adventures fo your
+          little ones. We can’t wait!
+        </p>
       </section>
     </main>
   );

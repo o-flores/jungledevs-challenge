@@ -5,11 +5,15 @@ main {
 .section-title {
   color: var(--grey-text-color);
   font-weight: var(--medium-text);
+  font-size: 28px;
+  line-height: 32px;
 }
 
 .section-paragraph {
   color: var(--grey-text-color);
   font-weight: var(--light-text);
+  font-size: 16px;
+  line-height: 28px;
 }
 
 .justify {
@@ -38,15 +42,8 @@ main {
   width: 444px;
 }
 
-#section-one h2 {
-  font-size: 28px;
-  line-height: 32px;
-}
-
 #section-one p {
   margin: 40px 0;
-  font-size: 16px;
-  line-height: 28px;
   text-align: left;
 }
 
@@ -64,7 +61,6 @@ main {
 
 #section-two h2 {
   font-size: 22px;
-  line-height: 32px;
 }
 
 #section-two p {
@@ -120,15 +116,7 @@ form button {
   margin-left: 44px;
 }
 
-#section-three h2 {
-  font-weight: var(--medium-text);
-  font-size: 28px;
-  line-height: 32px;
-}
-
 #section-three p {
-  font-size: 16px;
-  line-height: 28px;
   margin: 40px 0;
 }
 
@@ -139,21 +127,28 @@ form button {
   margin: 96px 0 104px;
 }
 
-#section-four h2 {
-  font-weight: var(--medium-text);
-  font-size: 28px;
-  line-height: 32px;
-}
-
 #section-four p {
   width: 784px;
   margin: 40px 0;
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: var(--light-text);
   text-align: center;
 }
 
 #section-four a {
   margin-bottom: 64px;
+}
+
+#section-five {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 96px;
+}
+
+#section-five h2 {
+  margin: 40px 0;
+}
+
+#section-five p {
+  width: 784px;
+  text-align: center;
+  margin-bottom: 120px;
 }
