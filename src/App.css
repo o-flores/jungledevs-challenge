@@ -2,7 +2,9 @@
 
 :root {
   --white-text-color: rgba(255, 255, 255, 1);
-  --purple-text-color: rgba(94, 32, 164, 1);
+  --purple-text-color: rgb(94, 32, 164);
+  --grey-medium-text-color: rgb(61, 61, 61);
+  --grey-light-text-color: rgb(74, 74, 74);
   --medium-text: 500;
   --light-text: 400;
 }
