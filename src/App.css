@@ -21,4 +21,29 @@
   font-weight: var(--medium-text);
   font-size: 16px;
   line-height: 24px;
+  text-decoration: underline;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-title {
+  color: var(--grey-light-text-color);
+  font-weight: var(--medium-text);
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.section-paragraph-light {
+  color: var(--grey-light-text-color);
+  font-weight: var(--light-text);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.justify {
+  text-align: justify;
 }
