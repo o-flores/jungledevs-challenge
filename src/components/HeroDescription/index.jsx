@@ -23,7 +23,7 @@ function HeroDescription() {
         </a>
       </div>
       <div className="hero-image">
-        <img src={heroImage} alt="sdfdsf" />
+        <img src={heroImage} alt="Example of Nanny Share" />
       </div>
     </section>
   );
