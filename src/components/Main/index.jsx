@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import ImageSection1 from '../../images/ImageSection1.png';
 import ImageSection3 from '../../images/ImageSection3.png';
+import ImageSection4 from '../../images/ImageSection4.png';
 
 function Main() {
   function handleSubmit(e) {
@@ -19,7 +20,7 @@ function Main() {
             <br />
             nanny and costs
           </h2>
-          <p className="section-paragraph justify">
+          <p className="section-paragraph">
             You have a fantastic home, a fantastic nanny and wouldn’t cutting your costs in half be
             , well, fantastic?! If only it was easy to connect with other parents
             to share your costs? Well now it is, with Hapu.&nbsp;
@@ -59,7 +60,7 @@ function Main() {
       <hr className="section-line" />
       <section id="section-three" className="section">
         <div>
-          <img src={ImageSection3} alt="Hapu payment system layout" />
+          <img src={ImageSection3} alt="Hapu's payment system layout" />
           <div>
             <h2 className="section-title">
               Shared payments made simple
@@ -73,6 +74,18 @@ function Main() {
             <a href="/" className="link-medium">Read how Bridget’s share (without Hapu) ended over $15</a>
           </div>
         </div>
+      </section>
+      <hr className="section-line" />
+      <section id="section-four" className="section">
+        <h2 className="section-title">A framework built for the long term</h2>
+        <p className="section-paragraph">
+          Childcare is for the long term. And you need a framework you can count on that gives
+          your share long term viability and success. That’s why we’ve defined Hapu around our
+          three tribal principles; clearly defined process, transparency over money and
+          equality of participation.
+        </p>
+        <a href="/" className="link-medium">Read how Hapu’s tribal background defines our app </a>
+        <img src={ImageSection4} alt="Hapu's billing history layout" />
       </section>
     </main>
   );

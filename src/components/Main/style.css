@@ -47,6 +47,7 @@ main {
   margin: 40px 0;
   font-size: 16px;
   line-height: 28px;
+  text-align: left;
 }
 
 #section-two {
@@ -129,4 +130,30 @@ form button {
   font-size: 16px;
   line-height: 28px;
   margin: 40px 0;
+}
+
+#section-four {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 96px 0 104px;
+}
+
+#section-four h2 {
+  font-weight: var(--medium-text);
+  font-size: 28px;
+  line-height: 32px;
+}
+
+#section-four p {
+  width: 784px;
+  margin: 40px 0;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--light-text);
+  text-align: center;
+}
+
+#section-four a {
+  margin-bottom: 64px;
 }
