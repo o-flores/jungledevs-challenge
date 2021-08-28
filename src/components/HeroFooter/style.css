@@ -12,11 +12,7 @@
 }
 
 .hero-footer a {
-  color: var(--purple-text-color);
-  font-weight: var(--medium-text);
   margin-right: 2px;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .hero-footer p {
