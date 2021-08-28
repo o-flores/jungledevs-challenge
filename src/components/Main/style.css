@@ -2,6 +2,30 @@ main {
   background: rgb(250, 249, 247);
 }
 
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-title {
+  color: var(--grey-text-color);
+  font-weight: var(--medium-text);
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.section-paragraph {
+  color: var(--grey-text-color);
+  font-weight: var(--light-text);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.justify {
+  text-align: justify;
+}
+
 .section div {
   display: flex;
   justify-content: flex-start;
@@ -10,6 +34,13 @@ main {
   width: 444px;
 }
 
-.main-section p {
+.section p {
   margin: 40px 0;
 }
+
+.section-line {
+  width: 784px;
+  margin: auto;
+  border: 1px solid rgb(223, 223, 223);
+}
+
