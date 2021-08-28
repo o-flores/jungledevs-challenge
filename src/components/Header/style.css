@@ -34,9 +34,6 @@ header .right-container {
 .action-btn {
   width: 234px;
   height: 44px;
-  border-radius: 4px;
-  background-color: rgba(0, 168, 112, 1);
-  border: none;
   margin-right: 23px;
 }
 
