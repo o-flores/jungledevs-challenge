@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 :root {
-  --white-text-color: rgba(255, 255, 255, 1);
+  --white-text-color: rgb(255, 255, 255);
   --purple-text-color: rgb(94, 32, 164);
   --grey-text-color: #3d3d3d;
-  /* --grey-light-text-color: #4a4a4a; */
   --medium-text: 500;
   --light-text: 400;
 }
