@@ -181,4 +181,32 @@ form button {
     left: 28px;
     top: 820px;
   }
+
+  #section-two {
+    width: 90%;
+    margin: 64px auto;
+  }
+
+  #section-two p {
+    margin-bottom: 32px;
+  }
+
+  #section-two form {
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #section-two button,
+  #section-two input {
+    width: 100%;
+  }
+
+  #section-two #input-name {
+    margin-bottom: 10px;
+  }
+
+  #section-two button {
+    margin-top: 18px;
+  }
 }
