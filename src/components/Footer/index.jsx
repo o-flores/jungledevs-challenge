@@ -8,28 +8,28 @@ import Twitter from '../../images/Twitter.png';
 
 function Footer() {
   return (
-    <section>
+    <section className="footer-section">
       <div>
-        <h2>Become a nanny share host</h2>
-        <p>Takes less than 5 minutes to get started</p>
-        <a href="/">
+        <h2 className="section-title">Become a nanny share host</h2>
+        <p className="section-paragraph">Takes less than 5 minutes to get started</p>
+        <a id="create-nany-btn" href="/">
           <img src={Button} alt="Create your nany share button" />
         </a>
-        <a href="/">Or browse local nanny-shares</a>
+        <a className="link-medium" href="/">Or browse local nanny-shares</a>
       </div>
       <footer>
         <a href="/">
-          <img src={Logo} alt="Hapu's Logo" />
+          <img id="hapu-logo" src={Logo} alt="Hapu's Logo" />
         </a>
-        <nav>
+        <nav className="nav-links">
           <ul>
-            <li>Share Your Nanny</li>
-            <li>Our Story</li>
-            <li>Blog</li>
-            <li>Terms & Privacy</li>
+            <li><a href="/">Share Your Nanny</a></li>
+            <li><a href="/">Our Story</a></li>
+            <li><a href="/">Blog</a></li>
+            <li><a href="/">Terms & Privacy</a></li>
           </ul>
         </nav>
-        <nav>
+        <nav id="social-links">
           <a href="/">
             <img src={Facebook} alt="Facebook logo" />
           </a>
@@ -40,8 +40,9 @@ function Footer() {
             <img src={Instagram} alt="Instagram logo" />
           </a>
         </nav>
-        <span>Copyright © 2017 Hapu PTY Limited All rights reserved</span>
       </footer>
+      <hr id="footer-line" />
+      <span id="footer-copyright">Copyright © 2017 Hapu PTY Limited All rights reserved</span>
     </section>
   );
 }
