@@ -272,4 +272,19 @@ form button {
   #section-four img {
     display: none;
   }
+
+  #section-five {
+    width: 90%;
+    margin: 64px auto;
+    text-align: center;
+  }
+
+  #section-five h2 {
+    margin: 24px 0 16px;
+  }
+
+  #section-five p {
+    width: 100%;
+    margin: 0 auto 64px;
+  }
 }
