@@ -246,4 +246,30 @@ form button {
     width: 312px;
     height: 230px;
   }
+
+  #section-four {
+    width: 90%;
+    margin: 64px auto;
+  }
+
+  #section-four h2{
+    width: 60%;
+    text-align: center;
+  }
+
+  #section-four p {
+    width: 90%;
+    text-align: center;
+    margin: 16px 0 24px;
+  }
+
+  #section-four a {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+  }
+
+  #section-four img {
+    display: none;
+  }
 }
