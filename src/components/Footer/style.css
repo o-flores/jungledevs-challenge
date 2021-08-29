@@ -73,3 +73,55 @@ footer {
   opacity: 0.6;
   mix-blend-mode: normal;
 }
+
+@media screen and (max-width: 360px) {
+  .footer-section {
+    margin-top: 40px;
+  }
+
+  .footer-section h2 {
+    margin-bottom: 0;
+  }
+
+  .footer-section p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  #create-nany-btn {
+    margin: 24px 0;
+  }
+
+  footer {
+    width: 90%;
+    flex-direction: column;
+    margin: 48px 0 40px;
+  }
+
+  footer #hapu-logo {
+    margin-bottom: 32px;
+  }
+
+  .nav-links ul {
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+  }
+
+  .nav-links ul li a {
+    margin-right: 32px;
+  }
+
+  #social-links {
+    margin-top: 24px;
+  }
+
+  #footer-line {
+    width: 328px;
+    opacity: 1;
+    margin-bottom: 24px;
+  }
+}
