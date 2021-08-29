@@ -22,3 +22,16 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+@media screen and (max-width: 360px) {
+  .hero-footer {
+    height: 216px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .hero-footer a {
+    text-align: center;
+    width: 60%;
+  }
+
+}
