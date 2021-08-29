@@ -1,11 +1,11 @@
 .section-hero-description {
   display: flex;
   flex-direction: column;
-  margin: 170px 0 0 125px;
+  margin: 152px 0 0 128px;
 }
 
 .hero-title {
-  font-size: 38px;
+  font-size: 40px;
   line-height: 48px;
   font-weight: var(--medium-text);
   color: var(--white-text-color);
@@ -38,9 +38,38 @@
   color: var(--white-text-color);
 }
 
-
 .hero-image {
   position: absolute;
   left: 893px;
   top: 170px;
+}
+
+@media screen and (max-width: 360px) {
+  .section-hero-description {
+    align-items: center;
+    margin: 92px 0 90px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    width: 272px;
+    margin: 0 auto 16px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    line-height: 28px;
+    width: 328px;
+    text-align: center;
+  }
+
+  .hero-video-link {
+    margin-top: 66px;
+  }
+
+  .hero-image {
+    display: none;
+  }
 }

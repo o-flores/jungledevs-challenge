@@ -3,3 +3,9 @@
   height: 616px;
   background: url('../../images/heroBackground.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 -1.49%, #5912AC 86.02%)
 }
+
+@media screen and (max-width: 360px) {
+  .hero {
+    height: 540px;
+  }
+}
