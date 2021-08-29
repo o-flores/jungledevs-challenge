@@ -45,6 +45,7 @@ main {
 #section-one p {
   margin: 40px 0;
   text-align: left;
+  line-height: 28px;
 }
 
 #section-two {
@@ -64,7 +65,6 @@ main {
 }
 
 #section-two p {
-  font-size: 18px;
   line-height: 24px;
   margin: 16px 0 74px;
 }
@@ -151,4 +151,34 @@ form button {
   width: 784px;
   text-align: center;
   margin-bottom: 120px;
+}
+
+@media screen and (max-width: 360px) {
+  .section-title {
+    font-size: 22px;
+  }
+
+  #section-one {
+    padding-top: 64px;
+    display: block;
+  }
+
+  #section-one div {
+    margin: 292px auto 64px;
+    width: 90%;
+    text-align: center;
+  }
+
+  #section-one div p {
+    text-align: center;
+    margin: 16px 0 24px;
+  }
+
+  #section-one img {
+    position: absolute;
+    width: 304px;
+    height: 204px;
+    left: 28px;
+    top: 820px;
+  }
 }
