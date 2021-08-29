@@ -34,12 +34,12 @@ header .right-container {
 .right-container .action-btn {
   width: 234px;
   height: 44px;
-  margin-right: 23px;
 }
 
 .sign-btn {
   background: none;
   border: none;
+  margin-left: 23px;
 }
 
 .hero-text {
@@ -47,4 +47,10 @@ header .right-container {
   font-weight: var(--medium-text);
   color: var(--white-text-color);
   line-height: 20px;
+}
+
+@media screen and (max-width: 360px) {
+  .header-links, .sign-btn {
+    display: none;
+  }
 }
