@@ -158,6 +158,11 @@ form button {
     font-size: 22px;
   }
 
+  .section-line {
+    width: 90%;
+    margin: 0 auto;
+  }
+
   #section-one {
     padding-top: 64px;
     display: block;
@@ -208,5 +213,37 @@ form button {
 
   #section-two button {
     margin-top: 18px;
+  }
+
+  #section-three {
+    width: 90%;
+    margin: 64px auto;
+  }
+
+  #section-three div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  #section-three div:nth-child(2) {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #section-three h2 {
+    width: 60%;
+    margin: 40px 0 16px;
+  }
+
+  #section-three p {
+    text-align: center;
+    margin: 0 0 24px;
+  }
+
+  #section-three img {
+    width: 312px;
+    height: 230px;
   }
 }
