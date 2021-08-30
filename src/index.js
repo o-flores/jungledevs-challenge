@@ -2,10 +2,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { TestContextProvider } from './contexts/TestContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TestContextProvider>
+      <App />
+    </TestContextProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
