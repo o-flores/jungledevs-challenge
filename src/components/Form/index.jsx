@@ -1,19 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import './style.css';
 import signNewsletter from '../../services/api';
+import { TestContext } from '../../contexts/TestContext';
 
 function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+  const { emitWin } = useContext(TestContext);
 
   function handleApiResponse(response) {
     let message = '';
     if (response.error) message = `${response.error} Please try again later`;
     if (response.email) message = response.email;
 
-    if (message === '') setSuccess(true);
+    if (message === '') {
+      setSuccess(true);
+      emitWin();
+    }
   }
 
   async function handleSubmit(e) {
