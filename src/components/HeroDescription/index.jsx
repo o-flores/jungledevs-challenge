@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PlayButton from '../../images/PlayButton.png';
 import heroImage from '../../images/heroImage.png';
 import './style.css';
-import HeroTest from '../HeroTest';
+import { TestContext } from '../../contexts/TestContext';
 
 function HeroDescription() {
+  const { variant } = useContext(TestContext);
+
   return (
     <section className="section-hero-description">
       <div>
-        <HeroTest />
+        {variant}
       </div>
       <div className="hero-video-link">
         <a href="/">
