@@ -14,15 +14,17 @@ async function signNewsletter(name, email) {
     body: raw,
   };
 
-  try {
-    const response = await fetch('https://api.jungledevs.com/api/v1/challenge-newsletter/', requestOptions);
-    const data = await response.json();
-    console.log(data);
-    return 'ok';
-  } catch (error) {
-    console.log(error);
-    return error;
-  }
+  const response = await fetch('https://api.jungledevs.com/api/v1/challenge-newsletter/', requestOptions);
+  const data = await response.json();
+  return data;
+
+  // try {
+  //   const response = await fetch('https://api.jungledevs.com/api/v1/challenge-newsletter/', requestOptions);
+  //   const data = await response.json();
+  //   return data;
+  // } catch (error) {
+  //   return error;
+  // }
 }
 
 export default signNewsletter;
