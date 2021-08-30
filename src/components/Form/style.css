@@ -10,6 +10,11 @@ form input {
   height: 48px;
   border-radius: 4px;
   margin-right: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--grey-text-color);
+  padding-left: 20px;
+  font-weight: var(--medium-text);
 }
 
 form input::placeholder {
