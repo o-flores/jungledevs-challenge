@@ -13,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 .link-medium {
@@ -27,4 +28,12 @@
   border-radius: 4px;
   background-color: rgba(0, 168, 112, 1);
   border: none;
+}
+
+h2 {
+  overflow-y: hidden;
+}
+
+p {
+  overflow-y: hidden;
 }
