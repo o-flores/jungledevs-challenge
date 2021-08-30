@@ -49,7 +49,7 @@ header .right-container {
   line-height: 20px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .header-links, .sign-btn {
     display: none;
   }
