@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './style.css';
+import signNewsletter from '../../services/api';
 
 function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  function handleSubmit(e) {
+
+  async function handleSubmit(e) {
     e.preventDefault();
+    signNewsletter(name, email);
   }
 
   return (
@@ -24,7 +27,7 @@ function Form() {
         onChange={({ target }) => setEmail(target.value)}
       />
       <button
-        type="button"
+        type="submit"
         className="action-btn btn"
       >
         Send
