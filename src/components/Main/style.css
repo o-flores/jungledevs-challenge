@@ -21,7 +21,7 @@ main {
 }
 
 .section-line {
-  width: 784px;
+  width: 55%;
   margin: auto;
   border: 1px solid rgb(223, 223, 223);
 }
@@ -38,8 +38,8 @@ main {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 120px 56px 120px 228px;
-  width: 444px;
+  margin: 120px 4% 120px 16%;
+  width: 30%;
 }
 
 #section-one p {
@@ -106,14 +106,14 @@ form button {
 
 #section-three div { 
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 #section-three div:nth-child(2) {
   display: flex;
   flex-direction: column;
-  width: 484px;
-  margin-left: 44px;
+  width: 33%;
+  margin-left: 3%;
 }
 
 #section-three p {
@@ -128,7 +128,7 @@ form button {
 }
 
 #section-four p {
-  width: 784px;
+  width: 55%;
   margin: 40px 0;
   text-align: center;
 }
@@ -148,18 +148,18 @@ form button {
 }
 
 #section-five p {
-  width: 784px;
+  width: 55%;
   text-align: center;
   margin-bottom: 120px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .section-title {
     font-size: 22px;
   }
 
   .section-line {
-    width: 90%;
+    width: 91.1%;
     margin: 0 auto;
   }
 
@@ -170,7 +170,7 @@ form button {
 
   #section-one div {
     margin: 292px auto 64px;
-    width: 90%;
+    width: 91.1%;
     text-align: center;
   }
 
@@ -183,12 +183,12 @@ form button {
     position: absolute;
     width: 304px;
     height: 204px;
-    left: 28px;
+    left: calc((100vw - 304px) / 2);
     top: 820px;
   }
 
   #section-two {
-    width: 90%;
+    width: 91.1%;
     margin: 64px auto;
   }
 
@@ -198,7 +198,7 @@ form button {
 
   #section-two form {
     flex-direction: column;
-    width: 90%;
+    width: 91.1%;
     margin: 0 auto;
   }
 
@@ -216,7 +216,7 @@ form button {
   }
 
   #section-three {
-    width: 90%;
+    width: 91.1%;
     margin: 64px auto;
   }
 
@@ -247,34 +247,8 @@ form button {
     height: 230px;
   }
 
-  #section-four {
-    width: 90%;
-    margin: 64px auto;
-  }
-
-  #section-four h2{
-    width: 60%;
-    text-align: center;
-  }
-
-  #section-four p {
-    width: 90%;
-    text-align: center;
-    margin: 16px 0 24px;
-  }
-
-  #section-four a {
-    width: 90%;
-    text-align: center;
-    margin: 0;
-  }
-
-  #section-four img {
-    display: none;
-  }
-
   #section-five {
-    width: 90%;
+    width: 91.1%;
     margin: 64px auto;
     text-align: center;
   }
@@ -286,5 +260,34 @@ form button {
   #section-five p {
     width: 100%;
     margin: 0 auto 64px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+
+  #section-four {
+    width: 91.1%;
+    margin: 64px auto;
+  }
+
+  #section-four h2 {
+    width: 60%;
+    text-align: center;
+  }
+
+  #section-four p {
+    width: 100%;
+    text-align: center;
+    margin: 16px 0 24px;
+  }
+
+  #section-four a {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  #section-four img {
+    display: none;
   }
 }
