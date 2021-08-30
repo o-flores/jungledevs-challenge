@@ -4,12 +4,9 @@ import ImageSection1 from '../../images/ImageSection1.png';
 import ImageSection3 from '../../images/ImageSection3.png';
 import ImageSection4 from '../../images/ImageSection4.png';
 import ImageSection5 from '../../images/ImageSection5.png';
+import Form from '../Form';
 
 function Main() {
-  function handleSubmit(e) {
-    e.preventDefault();
-  }
-
   return (
     <main>
       <section id="section-one" className="section">
@@ -47,16 +44,7 @@ function Main() {
             becomes available in your area!
           </p>
         </div>
-        <form onSubmit={handleSubmit}>
-          <input id="input-name" type="text" placeholder="Your Name" />
-          <input type="text" placeholder="Your Email" />
-          <button
-            type="button"
-            className="action-btn btn"
-          >
-            Send
-          </button>
-        </form>
+        <Form />
       </section>
       <hr className="section-line" />
       <section id="section-three" className="section">

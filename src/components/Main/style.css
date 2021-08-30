@@ -69,36 +69,6 @@ main {
   margin: 16px 0 74px;
 }
 
-form {
-  display: flex;
-  flex-direction: row;
-}
-
-form input {
-  background: #fff;
-  border: 1px solid #DFDFDF;
-  width: 232px;
-  height: 48px;
-  border-radius: 4px;
-  margin-right: 12px;
-}
-
-form input::placeholder {
-  font-size: 14px;
-  line-height: 20px;
-  color: var(--grey-text-color);
-  padding-left: 20px;
-  font-weight: var(--light-text);
-}
-
-form button {
-  width: 96px;
-  height: 48px;
-  color: var(--white-text-color);
-  font-size: 14px;
-  line-height: 20px;
-}
-
 #section-three {
   justify-content: space-evenly;
   margin: 96px 0;
