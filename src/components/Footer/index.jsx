@@ -21,6 +21,7 @@ function Footer() {
         <a href="/">
           <img id="hapu-logo" src={Logo} alt="Hapu's Logo" />
         </a>
+        <div className="empty-container" />
         <nav className="nav-links">
           <ul>
             <li><a href="/">Share Your Nanny</a></li>
