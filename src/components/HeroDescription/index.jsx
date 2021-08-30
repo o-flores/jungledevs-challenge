@@ -2,13 +2,13 @@ import React from 'react';
 import PlayButton from '../../images/PlayButton.png';
 import heroImage from '../../images/heroImage.png';
 import './style.css';
+import HeroTest from '../HeroTest';
 
 function HeroDescription() {
   return (
     <section className="section-hero-description">
       <div>
-        <h1 className="hero-title">Easily create or join a local nanny share with Hapu</h1>
-        <p className="hero-description">Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.</p>
+        <HeroTest />
       </div>
       <div className="hero-video-link">
         <a href="/">

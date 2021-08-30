@@ -1,0 +1,16 @@
+.hero-title {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: var(--medium-text);
+  color: var(--white-text-color);
+  width: 35%;
+  margin-bottom: 24px;
+}
+
+.hero-description {
+  color: var(--white-text-color);
+  font-weight: var(--light-text);
+  font-size: 18px;
+  line-height: 24px;
+  width: 40%;
+}
