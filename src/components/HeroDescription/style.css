@@ -1,7 +1,7 @@
 .section-hero-description {
   display: flex;
   flex-direction: column;
-  margin: 152px 0 0 128px;
+  margin: 152px 0 0 8%;
 }
 
 .hero-title {
@@ -9,7 +9,7 @@
   line-height: 48px;
   font-weight: var(--medium-text);
   color: var(--white-text-color);
-  width: 490px;
+  width: 35%;
   margin-bottom: 24px;
 }
 
@@ -18,7 +18,7 @@
   font-weight: var(--light-text);
   font-size: 18px;
   line-height: 24px;
-  width: 584px;
+  width: 40%;
 }
 
 .hero-video-link {
@@ -40,11 +40,11 @@
 
 .hero-image {
   position: absolute;
-  left: 893px;
+  left: 60%;
   top: 170px;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
   .section-hero-description {
     align-items: center;
     margin: 92px 0 90px;
