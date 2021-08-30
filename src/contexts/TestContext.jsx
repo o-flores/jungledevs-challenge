@@ -1,13 +1,23 @@
 import React, { createContext } from 'react';
 import PropTypes from 'prop-types';
 import { useExperiment, emitter } from '@marvelapp/react-ab-test';
+import mixpanel from 'mixpanel-browser';
 
-emitter.defineVariants('Hero title and description test', ['A', 'B']);
+mixpanel.init(process.env.REACT_APP_MIXPANEL_KEY);
+
+emitter.defineVariants('Hero test', ['A', 'B']);
+
+emitter.addWinListener((experimentName, variantName) => {
+  mixpanel.track(`${experimentName} ${variantName}`, {
+    name: experimentName,
+    variant: variantName,
+  });
+});
 
 export const TestContext = createContext({});
 
 export function TestContextProvider({ children }) {
-  const { selectVariant, emitWin } = useExperiment('Hero title and description test');
+  const { selectVariant, emitWin } = useExperiment('Hero test');
   const variant = selectVariant({
     A:
   <>
