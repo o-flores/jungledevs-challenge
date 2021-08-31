@@ -57,8 +57,8 @@ function Form() {
       >
         Send
       </button>
-      {loading && <FaSpinner />}
-      {!loading && success && <span>sucesso</span>}
+      {loading && <FaSpinner className="spinner" />}
+      {!loading && success && <span className="success-message">Thanks for joining  our Newsletter!</span>}
     </form>
   );
 }

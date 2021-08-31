@@ -41,6 +41,14 @@ form button {
   color: var(--green-action-button);
 }
 
+.success-message {
+  font-size: 14px;
+  color: var(--green-action-button);
+  text-decoration: underline;
+  margin-left: 10px;
+  font-weight: var(--ligth-text);
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0);
