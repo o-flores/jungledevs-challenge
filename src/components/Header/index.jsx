@@ -6,18 +6,28 @@ function Header() {
   return (
     <header>
       <nav className="left-container">
-        <a href="/" id="badger">
-          <img src={Badge} alt="Hapu's badge" />
-        </a>
-        <a href="/" className="header-links hero-text">
-          Create Your Nanny Share
-        </a>
-        <a href="/" className="header-links hero-text">
-          Browse Shares
-        </a>
-        <a href="/" className="header-links hero-text">
-          Our Story
-        </a>
+        <ul>
+          <li>
+            <a href="/" id="badger">
+              <img src={Badge} alt="Hapu's badge" />
+            </a>
+          </li>
+          <li>
+            <a href="/" className="header-links hero-text">
+              Create Your Nanny Share
+            </a>
+          </li>
+          <li>
+            <a href="/" className="header-links hero-text">
+              Browse Shares
+            </a>
+          </li>
+          <li>
+            <a href="/" className="header-links hero-text">
+              Our Story
+            </a>
+          </li>
+        </ul>
       </nav>
       <div className="right-container">
         <button

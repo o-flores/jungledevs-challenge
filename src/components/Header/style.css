@@ -11,6 +11,12 @@ header .left-container {
   margin-left: 17px;
 }
 
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
 header .left-container #badger {
   margin-right: 40px;
 }
