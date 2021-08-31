@@ -3,7 +3,7 @@
 :root {
   --white-text-color: rgb(255, 255, 255);
   --purple-text-color: rgb(94, 32, 164);
-  --grey-text-color: #3d3d3d;
+  --grey-text-color: rgb(61, 61, 61);
   --green-action-button: rgba(0, 168, 112, 1);
   --medium-text: 500;
   --light-text: 400;
