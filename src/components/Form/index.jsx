@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react';
 import './style.css';
+import { FaSpinner } from 'react-icons/fa';
 import signNewsletter from '../../services/api';
 import { TestContext } from '../../contexts/TestContext';
 
@@ -18,7 +19,9 @@ function Form() {
     if (message === '') {
       setSuccess(true);
       emitWin();
+      return;
     }
+    alert(message);
   }
 
   async function handleSubmit(e) {
@@ -30,7 +33,6 @@ function Form() {
       const response = await signNewsletter(name, email);
       handleApiResponse(response);
     }
-
     setLoading(false);
   }
 
@@ -55,8 +57,8 @@ function Form() {
       >
         Send
       </button>
-      {loading && 'loading'}
-      {success && 'sucesso'}
+      {loading && <FaSpinner />}
+      {!loading && success && <span>sucesso</span>}
     </form>
   );
 }
