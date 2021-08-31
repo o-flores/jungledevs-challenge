@@ -49,6 +49,27 @@ form button {
   font-weight: var(--ligth-text);
 }
 
+@media screen and (max-width: 768px) {
+
+  form {
+    flex-direction: column;
+    width: 91.1%;
+    margin: 0 auto;
+  }
+
+  form button, form input {
+    width: 100%;
+  }
+
+   #input-name {
+    margin-bottom: 10px;
+  }
+
+  form button {
+    margin: 18px 0 10px;
+  }
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0);
