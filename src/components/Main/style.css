@@ -166,25 +166,6 @@ main {
     margin-bottom: 32px;
   }
 
-  #section-two form {
-    flex-direction: column;
-    width: 91.1%;
-    margin: 0 auto;
-  }
-
-  #section-two button,
-  #section-two input {
-    width: 100%;
-  }
-
-  #section-two #input-name {
-    margin-bottom: 10px;
-  }
-
-  #section-two button {
-    margin-top: 18px;
-  }
-
   #section-three {
     width: 91.1%;
     margin: 64px auto;
@@ -217,6 +198,10 @@ main {
     height: 230px;
   }
 
+  #section-four p {
+    width: 100% !important;
+  }
+
   #section-five {
     width: 91.1%;
     margin: 64px auto;
@@ -246,7 +231,7 @@ main {
   }
 
   #section-four p {
-    width: 100%;
+    width: 55%;
     text-align: center;
     margin: 16px 0 24px;
   }
