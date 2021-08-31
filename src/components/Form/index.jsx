@@ -40,16 +40,20 @@ function Form() {
     <form onSubmit={handleSubmit}>
       <input
         value={name}
+        name="input-name"
         id="input-name"
         type="text"
         placeholder="Your Name"
         onChange={({ target }) => setName(target.value)}
+        aria-label="input-name"
       />
       <input
         value={email}
+        name="input-email"
         type="text"
         placeholder="Your Email"
         onChange={({ target }) => setEmail(target.value)}
+        aria-label="input-email"
       />
       <button
         type="submit"
