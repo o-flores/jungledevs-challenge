@@ -40,12 +40,12 @@ To run this project, install it locally using npm:
 
 1. Install [gh-pages](https://github.com/tschaub/gh-pages) in your application:
 ```javascript
-  npm install gh-pages
+  npm install --save gh-pages
 ```
 
-2. Add following scripts on package.json:
+2. Add homepage and scripts on package.json:
 ```javascript
-  "homepage": "https:\/\/username.github.io/app-name",
+  "homepage": "https://myusername.github.io/my-app",
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
@@ -61,7 +61,7 @@ To run this project, install it locally using npm:
 
 ![image](https://user-images.githubusercontent.com/78616220/131594518-674d66c1-f1fb-4505-908c-ff79f3f0fd10.png)
 
-5. That's it! Your app is now accessible at the URL you specified in step 2. 
+5. That's it! Your app is now accessible at the homepage you specified in step 2. 
 
 
 ## How to integrate MixPanel with your application
