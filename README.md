@@ -94,7 +94,9 @@ To run this project, install it locally using npm:
 ![image](https://user-images.githubusercontent.com/78616220/131593146-56ae3efe-4b54-45d3-b859-3ad3f331a306.png)
 
 
-If you have troubles integrating MixPanel don't forget to check [MixPanel's integration documentation](https://developer.mixpanel.com/docs/javascript-quickstart)
+If you have troubles integrating MixPanel don't forget to check [MixPanel's integration documentation](https://developer.mixpanel.com/docs/javascript-quickstart) <br />
+
+If you want to create more A/B tests don't forget to check [@marvelapp/react-ab-test documentation](https://www.npmjs.com/package/@marvelapp/react-ab-test)
 
 
 ## SEO and Accessibility
