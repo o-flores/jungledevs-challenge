@@ -10,6 +10,7 @@ Hope you like it! Feel free to get in touch with me if you have any questions :)
   - **_Using custom enviroment variables in a React Application_**
   - **_Using media queries to create a responsive website_**
   - **_How to handle with API errors_**
+  - **_Using Figma as a Desing resource_**
 
 ## :computer:  Tecnologies
   - **_[React](https://reactjs.org)_**
