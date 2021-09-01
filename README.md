@@ -1,9 +1,15 @@
 <h1 align="center"> :man_technologist: Jungle Devs - React Challenge #001 :woman_technologist: </h1>
 
+Good evening everyone! I am Orlando and this is my solution for React challenge :smiley: <br />
+It was a great learning opportunity and enjoyed it very much!
+Hope you like it! Feel free to get in touch with me if you have any questions :)
+
 ## :nerd_face: What I learned?
   - **_How to create A/B tests in React Applications using MarvelApp_**
   - **_How to integrate MixPanel to check metrics of running A/B tests_**
   - **_Using custom enviroment variables in a React Application_**
+  - **_Using media queries to create a responsive website_**
+  - **_How to handle with API errors_**
 
 ## :computer:  Tecnologies
   - **_[React](https://reactjs.org)_**
