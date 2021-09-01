@@ -1,8 +1,12 @@
 <h1 align="center"> :man_technologist: Jungle Devs - React Challenge #001 :woman_technologist: </h1>
 
-Good evening everyone! I am Orlando and this is my solution for React challenge :smiley: <br />
+<div align='center'>
+  
+Good evening everyone! I am Orlando and this is my solution for React challenge  :smiley:
 It was a great learning opportunity and enjoyed it very much!
 Hope you like it! Feel free to get in touch with me if you have any questions :)
+
+</div>
 
 ## :nerd_face: What I learned?
   - **_How to create A/B tests in React Applications using MarvelApp_**
