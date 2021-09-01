@@ -1,10 +1,12 @@
 .hero {
   width: 100vw;
+  max-width: 1440px;
   height: 616px;
   overflow-y: hidden;
-  background: url('../../images/heroBackground.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 -1.49%, #5912AC 86.02%);
+  background: url('../../images/heroBackground.svg'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 -1.49%, #5912AC 86.02%);
   background-position: center;
   background-size: cover;
+  background-color:#5E20A4;
 }
 
 @media screen and (max-width: 360px) {
@@ -12,6 +14,7 @@
     width: 100vw;
     height: 540px;
     background-size: cover;
-    background: url('../../images/heroBackgroundSmall.png'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
+    background-position: center;
+    background: url('../../images/heroBackgroundSmall.svg'), linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
   }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../../images/ProfileImage.png';
+import ProfileImage from '../../images/ProfileImage.svg';
 import './style.css';
 
 function HeroFooter() {

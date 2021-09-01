@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
-import ImageSection1 from '../../images/ImageSection1.png';
-import ImageSection3 from '../../images/ImageSection3.png';
-import ImageSection4 from '../../images/ImageSection4.png';
-import ImageSection5 from '../../images/ImageSection5.png';
+import ImageSection1 from '../../images/ImageSection1.svg';
+import ImageSection3 from '../../images/ImageSection3.svg';
+import ImageSection4 from '../../images/ImageSection4.svg';
+import ImageSection5 from '../../images/ImageSection5.svg';
 import Form from '../Form';
 
 function Main() {

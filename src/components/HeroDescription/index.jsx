@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import PlayButton from '../../images/PlayButton.png';
-import heroImage from '../../images/heroImage.png';
+import PlayButton from '../../images/PlayButton.svg';
+import heroImage from '../../images/heroImage.svg';
 import './style.css';
 import { TestContext } from '../../contexts/TestContext';
 

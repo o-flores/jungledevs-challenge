@@ -1,5 +1,5 @@
 import React from 'react';
-import Badge from '../../images/Badge.png';
+import Badge from '../../images/Badge.svg';
 import './style.css';
 
 function Header() {
