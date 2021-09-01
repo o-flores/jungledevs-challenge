@@ -25,11 +25,11 @@ function Form() {
   }
 
   async function handleSubmit(e) {
-    setLoading(true);
     e.preventDefault();
+    setLoading(true);
 
     if (name.trim() === '' || email.trim() === '') alert('Fields may not be blank');
-    if (name.trim() !== '' || email.trim() !== '') {
+    if (name.trim() !== '' && email.trim() !== '') {
       const response = await signNewsletter(name, email);
       handleApiResponse(response);
     }
