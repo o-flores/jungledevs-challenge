@@ -121,6 +121,7 @@ footer {
     justify-content: center;
     height: 57px;
     position: unset;
+    margin-left: 15%;
   }
 
   .nav-links ul li a {
