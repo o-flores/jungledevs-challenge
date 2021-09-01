@@ -66,7 +66,24 @@ To run this project, install it locally using npm:
 
 ## How to integrate MixPanel with your application
 
+1. MixPanel React library is already installed, so you can skip ahead and create a [MixPanel](https://mixpanel.com/) account.
+
+2. Create a new project in MixPanel.
+
+3. Go to your project's settings and take note of your Project Token.
+
+4. Create a ```.env.local``` file in the root of your project and create ```REACT_APP_MIXPANEL_KEY``` [enviroment variable](https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env) :
+
+```javascript
+  REACT_APP_MIXPANEL_KEY="YOUR_PROJECT_TOKEN"
+```
+
+5. That's it! Now you can track your A/B test metrics in MixPanel Reports section:
+
 ![image](https://user-images.githubusercontent.com/78616220/131593146-56ae3efe-4b54-45d3-b859-3ad3f331a306.png)
+
+
+If you have troubles integrating MixPanel don't forget to check [MixPanel's integration documentation](https://developer.mixpanel.com/docs/javascript-quickstart)
 
 
 ## SEO and Accessibility
