@@ -28,7 +28,7 @@ To run this project, install it locally using npm:
 
 3. install dependencies:
 ```javascript
-  cd busca-livre
+  cd jungledevs-challenge
   npm i
 ```
 
