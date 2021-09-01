@@ -78,7 +78,7 @@ To run this project, install it locally using npm:
   REACT_APP_MIXPANEL_KEY="YOUR_PROJECT_TOKEN"
 ```
 
-5. That's it! Now you can track your A/B test metrics in MixPanel Reports section:
+5. That's it! Now you can track your A/B test metrics in MixPanel's Reports section:
 
 ![image](https://user-images.githubusercontent.com/78616220/131593146-56ae3efe-4b54-45d3-b859-3ad3f331a306.png)
 
